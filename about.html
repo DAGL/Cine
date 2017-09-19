@@ -1,0 +1,301 @@
+  <!DOCTYPE HTML>
+  <html>
+      <head>
+          <title>CineMania</title>
+          <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+          <link href="css/style.css" rel='stylesheet' type='text/css' />
+          <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="keywords" content="Snow Skating Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+          Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" 
+          />
+          <script src="js/qwery.js"></script>
+          <script src="js/jquery.min.js"></script>
+          <script src="js/main.js"></script>
+          <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+          </script>
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+          <script type="text/javascript" src="js/move-top.js"></script>
+          <script type="text/javascript" src="js/easing.js"></script>
+          
+          <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+          <script type="text/javascript">
+              jQuery(document).ready(function($) {
+                  $(".scroll").click(function(event){		
+                      event.preventDefault();
+                      $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                  });
+              });
+          </script>
+          <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+          <script>
+              $(function() {
+                  var pull 		= $('#pull');
+                      menu 		= $('nav ul');
+                      menuHeight	= menu.height();
+                  $(pull).on('click', function(e) {
+                      e.preventDefault();
+                      menu.slideToggle();
+                  });
+                  $(window).resize(function(){
+                      var w = $(window).width();
+                      if(w > 320 && menu.is(':hidden')) {
+                          menu.removeAttr('style');
+                      }
+                  });
+              });
+          </script>
+          </head>
+      <body>
+              <div class="cabecera-top">
+                  <div class="container">
+                      <div class="top-cabecera">
+                          <div class="logo">
+                              <a href="index.html"><img src="images/logo.png" alt=""></a>
+                          </div>
+                           <nav class="top-nav">
+                              <ul class="top-nav">
+                                  <li><a href="index.html">Inicio</a></li>
+                                  <li class="activo"><a href="about.html">Nosotros </a></li>
+                                  <li><a href="blog.html">Cines</a></li>-
+                                  <li><a href="cart.html">Cartelera</a></li>
+                                  <li><a href="contact.html">Contacto</a></li>
+  
+                              </ul>
+                              <a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+                          </nav>
+                              <div class="fix"></div>
+                      </div>
+                       <div class="main-search">
+                          <form action="search.html">
+                             <input type="text" value="Search" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}" class="text"/>
+                              <input type="submit" value=""/>
+                          </form>
+                          <div class="close"><img src="images/cross.png" /></div>
+                      </div>
+                          <div class="srch"><button></button></div>
+                          <script type="text/javascript">
+                               $('.main-search').hide();
+                              $('button').click(function (){
+                                  $('.main-search').show();
+                                  $('.main-search text').focus();
+                              }
+                              );
+                              $('.close').click(function(){
+                                  $('.main-search').hide();
+                              });
+                          </script>
+                          <div class="fix"></div>
+                      </div>
+              </div>
+              <div class="about-section">
+                          <div class="container">
+                  <div class="about-grids">
+                                  <div class="col-md-9 about-left">
+                                      <h1>Acerca de CineMania</h1>
+                                      <p>
+  
+  Cinemex, la sexta cadena de cines más grande del mundo, ha llevado La Magia del Cine a millones de personas alrededor de México desde su fundación en agosto de 1995, fecha en la cual, abrió sus puertas al público con el complejo Cinemex Altavista.
+  
+  El concepto de Cinemex llegó a revolucionar la industria del cine en nuestro país al instalar salas múltiplex y tipo estadio para poder satisfacer las necesidades únicas del mercado.
+  </p>
+                                      <p>En Cinemex, nuestros clientes son nuestros invitados y nuestra misión es ser los mejores en divertir a la gente. Con la idea de poderle llegar a más personas nos hemos expandido a múltiples ciudades dentro de México a lo largo del tiempo, teniendo un crecimiento del 35% anual en los últimos 6 años. Hoy en día contamos con más de 271 complejos y 2,361 pantallas alrededor del país y esperando crecer aún más.
+  
+  Para que nuestros invitados disfruten al máximo La Magia del Cine ofrecemos innovadores conceptos como Platino Cinemex y Premium Cinemex, cines de vanguardia equipados con lujosos asientos y servicio de alimentos a la sala; también el concepto CinemeXtremo, la cual posiciona a Cinemex como cadena líder en México en número de salas con la última tecnología en imagen y sonido Dolby ATMOS.
+  </p>
+                                          <ul>
+                                              <li><a href="#"><span> </span>Politicas</a></li>
+                                              <li><a href="#"><span> </span>Ideales</a></li>
+                                              <li><a href="#"><span> </span>Referencias</a></li>
+                                              <li><a href="#"><span> </span>Reconocimientos</a></li>
+                                          </ul>
+                                      <p>Al igual contamos con Cinemex 3D, la experiencia X4D, Casa de Arte y Contenido Alternativo, siendo este último un espacio donde los invitados podrán disfrutar de partidos de la NFL, UEFA Champions League, temporadas de Ópera, Ballet Bolshoi, entre otros. Adicional, ofrecemos funciones CineMá, donde los invitados podrán asistir acompañados de sus bebés a una sala acondicionada especialmente para ellos.
+  </p>
+                                      <ul>
+                                              <li><a href="#"><span> </span>Opiniones</a></li>
+                                              <li><a href="#"><span> </span>Salas</a></li>
+                                              <li><a href="#"><span> </span>Proyectos</a></li>
+                                          </ul>
+                                      <p>
+  Hoy en día, podemos orgullosamente comunicar que somos una cadena de cines 100% digital donde la calidad de la imagen y sonido crea una experiencia inolvidable para nuestros invitados, cumpliendo nuestra misión de ser los mejores en divertir a la gente.
+  
+  El año pasado fuimos reconocidos como el “Exhibidor Internacional del Año” durante la Convención Anual de ShowEast 2013, premio que reconoce nuestro liderazgo, innovación y crecimiento constante en los últimos años.</p>
+                                  </div>
+                                  <div class="col-md-3 about-left">
+                                      <h2>Ultimas noticias</h2>
+                                      <div class="news-grid">
+                                          <img src="images/ab-img.png" title="name">
+                                      </div>
+                                      <div class="recent-posts">
+                                          <h2>Post recientes</h2>
+                                              <div class="recent-post-grids">
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e1.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Capitan america 3</h4>
+                                                          <p>La guerra inicia</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e3.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Batman vs Superman</h4>
+                                                          <p>La guerra por derrocar a un Dios</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e4.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Star wars</h4>
+                                                          <p>La guerra final se acerca</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e2.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Kun Fu Panda 3</h4>
+                                                          <p>El guerrero dragon aun mas fuerte</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  <div  class="testimonials" id="testimonials">
+               <div class="wmuSlider example1">
+              <div class="container-flueid">
+                 <article style="position: absolute; width:64%; opacity: 0;"> 
+                      
+                      <div class=" cont span_2_of_3 client-main">
+                              <div class="slide-text2">
+                                      <p>Entre en el gran mundo del Cine</p>
+                              <span> </span>
+                              </div>
+                              <div class="fix"> </div>  
+                      </div>
+                  </article>
+                   <article style="position: absolute; width:64%; opacity: 0;"> 
+                      <div class=" cont span_2_of_3  client-main">
+                              <div class="slide-text2">
+                                  <p>Shalalalalalalalalaalalalalalalalalalalalalalalalalalalalalalalalala (8</p>
+                                      <span> </span>
+                              </div>
+                              <div class="fix"> </div>  
+                      </div>
+                   </article>
+                   <article style="position: absolute; width:64%; opacity: 0;"> 
+                      <div class="cont span_2_of_3  client-main">
+                              <div class="slide-text2">
+                                      <p>Parangaricutirimicuaro , Parangaricutirimicuaro , Parangaricutirimicuaro , Parangaricutirimicuaro </p>
+                              <span> </span>
+                              </div>
+                              <div class="fix"> </div>  
+                      </div>
+                   </article>
+           
+                    <script src="js/jquery.wmuSlider.js"></script> 
+                      <script>
+                           $('.example1').wmuSlider();         
+                      </script> 	           	      
+               </div>
+           </div>
+       </div>
+              <div class="leave-section">
+                  <div class="container">
+                      <h3>CineMania</h3>
+                      <div class="Event-grids">
+                          <div class="col-md-3 leave-grid">
+                                  <h4>Clientes</h4>
+                                  <p>En Cinemex, nuestros clientes son nuestros invitados y 
+                                  nuestra misión es ser los mejores en divertir a la gente. 
+                                  Con la idea de poderle llegar a más personas nos hemos expandido 
+                                  a múltiples ciudades dentro de México a lo largo del tiempo.</p>
+                          </div>	
+                          <div class="col-md-3 leave-grid">
+                                  <h4>Salas</h4>
+                                  <p>Al igual contamos con Cinemex 3D, la experiencia X4D, Casa de Arte y Contenido Alternativo, siendo este último un espacio donde los invitados podrán disfrutar de partidos de la NFL, UEFA Champions League, temporadas de Ópera, Ballet Bolshoi, entre otros. Adicional, ofrecemos funciones CineMá, donde los invitados podrán asistir acompañados de sus bebés a una sala acondicionada especialmente para ellos. </p>
+                          </div>	
+                          <div class="col-md-3 leave-grid">
+                                  <h4>Cinemania</h4>
+                                  <p>Cinemex, la sexta cadena de cines más grande del mundo, ha llevado La Magia del Cine a millones de personas alrededor de México desde su fundación en agosto de 1995, fecha en la cual, abrió sus puertas al público con el complejo Cinemex Altavista. </p>
+                          </div>	
+                          <div class="col-md-3 leave-grid">
+                                  <h4> Exhibidor Internacional del Año </h4>
+                                  <p>El año pasado fuimos reconocidos como el “Exhibidor Internacional del Año” durante la Convención Anual de ShowEast 2013, premio que reconoce nuestro liderazgo, innovación y crecimiento constante en los últimos años.</p>
+                          </div>	
+                          <div class="fix"> </div>  		
+                      </div>	
+                  </div>
+              </div>
+                          <div class="footer">
+                              <div class="container">
+                                  <div class="footer-content">
+                                      <div class="col-md-3 footer-grid-copy-right">
+                                          <div class="logo-2">
+                                              <a href="index.html"><img src="images/logo2.png" alt=""></a>
+                                          </div>
+                                          <p> Creado por &nbsp;<a href="https://cinemex.com">CineMania</a></p>
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Informacion</h3>
+                                          <ul class="bottom-nav">
+                                              <li class="activo"><a href="index.html">Inicio</a></li>
+                                              <li><a href="about.html"> Nosotros </a></li>
+                                              <li><a href="blog.html">Estrenos</a></li>
+                                              <li><a href="404.html">Cines</a></li>
+                                              <li><a href="cart.html">Cartelera</a></li>
+                                              <li><a href="contact.html">Contacto</a></li>
+                                                  <div class="fix"> </div>
+  
+                                          </ul>
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Mi Cuenta</h3>
+                                          <div class="list styled arrow-list3">
+                                              <ul>
+                                                  <li><a href="account.html">Mi Cuenta</a></li>
+                                                  <li><a href="404.html">Mi direccion</a></li>
+                                                  <li><a href="cart.html">Mi Carrito</a></li>
+                                              </ul>
+                                              </div>
+                                      </div>
+  
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Buscanos</h3>
+                                              <ul class="soc_icons2">
+                                              <li><a href="#"><i class="icon_4"></i><span>Facebook</a></span></li>
+                                              <li><a href="#"><i class="icon_5"></i><span>Twitter</a></span></li>
+                                              <li><a href="#"><i class="icon_6"></i><span>Rss Feed</a></span></li>
+                                          </ul>
+  
+                                      </div>
+                                  <div class="fix"> </div>
+                              </div>				
+                      </div>
+  
+                  <script type="text/javascript">
+                                      $(document).ready(function() {
+                                          $().UItoTop({ easingType: 'easeOutQuart' });	
+                                      });
+                                  </script>
+                      <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  
+  
+  </body>
+  </html>		

@@ -1,0 +1,347 @@
+  <!DOCTYPE HTML>
+  <html>
+      <head>
+          <title>CineMania</title>
+          <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+          <link href="css/style.css" rel='stylesheet' type='text/css' />
+          <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="keywords" content="Snow Skating Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+          Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" 
+          />
+          <script src="js/qwery.js"></script>
+          <script src="js/jquery.min.js"></script>
+          <script src="js/main.js"></script>
+          <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+          </script>
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+          <script type="text/javascript" src="js/move-top.js"></script>
+          <script type="text/javascript" src="js/easing.js"></script>
+              <script src="js/modernizr.custom.js"></script>
+          <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+          <script type="text/javascript">
+              jQuery(document).ready(function($) {
+                  $(".scroll").click(function(event){		
+                      event.preventDefault();
+                      $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                  });
+              });
+          </script>
+          <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+          <script>
+              $(function() {
+                  var pull 		= $('#pull');
+                      menu 		= $('nav ul');
+                      menuHeight	= menu.height();
+                  $(pull).on('click', function(e) {
+                      e.preventDefault();
+                      menu.slideToggle();
+                  });
+                  $(window).resize(function(){
+                      var w = $(window).width();
+                      if(w > 320 && menu.is(':hidden')) {
+                          menu.removeAttr('style');
+                      }
+                  });
+              });
+          </script>
+      </head>
+      <body>
+              <div class="cabecera-top">
+                  <div class="container">
+                      <div class="top-cabecera">
+                          <div class="logo">
+                              <a href="index.html"><img src="images/logo.png" alt=""></a>
+                          </div>
+                           <nav class="top-nav">
+                              <ul class="top-nav">
+                                  <li><a href="index.html">Inicio</a></li>
+                                  <li><a href="about.html">Nosotros</a></li>
+                                  <li class="activo"><a href="blog.html">Cines</a></li>
+                                  <li><a href="cart.html">Cartelera</a></li>
+                                  <li><a href="contact.html">Contacto</a></li>
+                                      <div class="fix"> </div>
+                              </ul>
+                              <a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+                          </nav>
+                              <div class="fix"></div>
+                      </div>
+                       <div class="main-search">
+                          <form action="search.html">
+                             <input type="text" value="Search" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}" class="text"/>
+                              <input type="submit" value=""/>
+                          </form>
+                          <div class="close"><img src="images/cross.png" /></div>
+                      </div>
+                          <div class="srch"><button></button></div>
+                          <script type="text/javascript">
+                               $('.main-search').hide();
+                              $('button').click(function (){
+                                  $('.main-search').show();
+                                  $('.main-search text').focus();
+                              }
+                              );
+                              $('.close').click(function(){
+                                  $('.main-search').hide();
+                              });
+                          </script>
+                          <div class="fix"></div>
+                      </div>
+              </div>
+          <div class="blog">
+              <div class="container">
+                  <div class="blog-content">
+                      <div class="container">
+                      <div class="blog-content-left">
+                          <div class="blog-articals">
+                          <div class="blog-artical">
+                              <div class="blog-artical-basicinfo">
+                                  <ul>
+                                      <li class="post-date"><p><span> 05</span><label>Mar,2014</label></p></li>
+                                      <div class="fix"> </div>
+                                  </ul>
+                              </div>
+                              <div class="blog-artical-info">
+                                  <ul class="product-head">
+                                      <li><a href="index.html">Inicio</a> <span>::</span></li>
+                                      <li class="activo-page">Cines</li>
+                                      <div class="clear"> </div>
+                                  </ul>
+  
+                                  
+                                  <div class="blog-artical-info-img">
+                                       <a href="blog-inner.html" class="mask"><img src="images/blog1.jpg" alt="image" class="img-responsive zoom-img"></a>
+                                  </div>
+                                  <div class="blog-artical-info-head">
+                                  <h2><a href="blog-inner.html">Sonido 360°</a></h2>
+                                      <ul>
+                                          <li><span> </span>by <a href="#">CineMa</a></li>
+                                          <li><span class="tag"> </span><a href="#">Lorem</a>,<a href="#">Ipsum</a>,<a href="#">Printer</a>,<a href="#">Unknown</a></li>
+                                          <div class="fix"> </div>
+                                      </ul>
+                                  </div>
+                                  <div class="blog-artical-info-text">
+                                      <p>Vive una experiencia de audio envolvente dentro de nuestras salas equipadas con el sistema de sonido Dolby Atmos, que te ofrece una mayor definición y fidelidad de cada detalle de audio.
+  
+  Encontrarás bocinas por todos lados de la sala que te permitirán sentir el sonido hasta los huesos con 30.000 watts de potencia y 24 canales de sonido envolvente.</p>
+                                      <nav class="cl-effect-20" id="cl-effect-20">
+                                          <a href="blog-inner.html"><span data-hover="Read More">Read Mome</span></a>
+                                      </nav>
+                                  </div>
+                              </div>
+                              <div class="fix"> </div>
+                          </div>
+                          <div class="blog-artical">
+                              <div class="blog-artical-basicinfo">
+                                  <ul>
+                                      <li class="post-date"><p><span> 25</span><label>May,2014</label></p></li>
+                                      <div class="fix"> </div>
+                                  </ul>
+                              </div>
+                              <div class="blog-artical-info">
+                                  <div class="blog-artical-info-img">
+                                       <a href="blog-inner.html" class="mask"><img src="images/blog2.jpg" alt="image" class="img-responsive zoom-img"></a>
+                                  </div>
+                                  <div class="blog-artical-info-head">
+                                      <h2><a href="blog-inner.html">Butacas envolventes</a></h2>
+                                      <ul>
+                                          <li><span> </span>by <a href="#">CineMa</a></li>
+                                          <li><span class="tag"> </span><a href="#">Lorem</a>,<a href="#">Ipsum</a>,<a href="#">Printer</a>,<a href="#">Unknown</a></li>
+                                          <div class="fix"> </div>
+                                      </ul>
+                                  </div>
+                                  
+                                  <div class="blog-artical-info-text">
+                                      <p>Nuestras butacas tienen un diseño ergonómico y deportivo que te permitirán vivir tu película con una comodidad inigualable y extrema.
+                                      Podrás disfrutar al máximo cada instante de tu película favorita en nuestras pantallas con un tamaño excepcional y una proyección digital que te permitirán gozar hasta el mínimo detalle.</p>
+                                          <nav class="cl-effect-20" id="cl-effect-20">
+                                          <a href="blog-inner.html"><span data-hover="Read More">Read Mome</span></a>
+                                      </nav>
+                                  </div>
+                              </div>
+                              <div class="fix"> </div>
+                          </div>
+                          <div class="blog-artical">
+                              <div class="blog-artical-basicinfo">
+                                  <ul>
+                                      <li class="post-date"><p><span>30</span><label>Jun,2014</label></p></li>
+                                      <div class="fix"> </div>
+                                  </ul>
+                              </div>
+                              <div class="blog-artical-info">
+                                  
+                                  <div class="blog-artical-info-img">
+                                       <a href="blog-inner.html" class="mask"><img src="images/blog3.jpg" alt="image" class="img-responsive zoom-img"></a>
+                                  </div>
+                                  <div class="blog-artical-info-head">
+                                      <h2><a href="blog-inner.html">La locura</a></h2>
+                                      <ul>
+                                          <li><span> </span>by <a href="#">CineMa</a></li>
+                                          <li><span class="tag"> </span><a href="#">Lorem</a>,<a href="#">Ipsum</a>,<a href="#">Printer</a>,<a href="#">Unknown</a></li>
+                                          <div class="fix"> </div>
+                                      </ul>
+                                  </div>
+                                  <div class="blog-artical-info-text">
+                                      <p>Como su nombre lo indica, La Locura crea un ambiente divertido con los mejores dulces a granel como gomitas, manguitos enchilados, checolines, nueces de la India, chocolates, cacahuates, entre otros. El invitado puede escoger la cantidad y los sabores de su preferencia, y, al mismo tiempo se adentra en una experiencia divertida al ser ellos los creadores de su propio antojo.</p>
+                                      <nav class="cl-effect-20" id="cl-effect-20">
+                                          <a href="blog-inner.html"><span data-hover="Read More">Read Mome</span></a>
+                                      </nav>
+                                  </div>
+                              </div>
+                              <div class="fix"> </div>
+                          </div>
+                      </div>
+                      
+                      </div>
+                      <div class="blog-content-right">
+                          <div class="b-search">
+                              <form>
+                                  <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                                  <input type="submit" value="">
+                              </form>
+                          </div>
+                          <div class="categories">
+                                          <h3>PREMIOS DE CINEMANIA</h3>
+                                          <div class="list styled arrow-list2">
+                                              <ul>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">la mejor sala</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">La mejor experiencia</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Y si hacemos un muñeco?</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Mas abuelitas en un cine</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Como entrenar a tu suegra</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">GOT</a></li>
+                                              </ul>
+                                          </div>
+                      </div>
+                          <div class="Archives">
+                                          <h3>Estrenos por fecha</h3>
+                                          <div class="list styled arrow-list2">
+                                              <ul>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">March, 2016</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">April, 2016</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">May, 2016</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">March, 2016</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">June, 2016</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">July, 2016</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">August, 2016</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">semptember, 2016</a></li>
+                                              </ul>
+                                          </div>
+                      </div>
+                          <div class="recent-posts one">
+                                          <h2>Proximos Estrenos</h2>
+                                              <div class="recent-post-grids">
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e1.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Civil War</h4>
+                                                          <p>Mas guerra!!!</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e3.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Batman vs Superman</h4>
+                                                          <p>Un dios contra un rico</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e4.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Star Wars</h4>
+                                                          <p>Otra???</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e2.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Kun Fu Panda 3</h4>
+                                                          <p>LIKE</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                                  <div class="r-post-grid">
+                                                      <div class="r-post-grid-left">
+                                                          <a href="#"><img src="images/e3.png" title="name"></a>
+                                                      </div>
+                                                      <div class="r-post-grid-right">
+                                                          <h4>Batman vs Superman</h4>
+                                                          <p>Otra vez :/</p>
+                                                      </div>
+                                                      <div class="fix"> </div>
+                                                  </div>
+                                              </div>
+                                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+                          <div class="footer">
+                              <div class="container">
+                                  <div class="footer-content">
+                                      <div class="col-md-3 footer-grid-copy-right">
+                                          <div class="logo-2">
+                                              <a href="index.html"><img src="images/logo2.png" alt=""></a>
+                                          </div>
+                                          <p> Creado por &nbsp;<a href="https://cinemex.com">CineMania</a></p>
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Informacion</h3>
+                                          <ul class="bottom-nav">
+                                              <li class="activo"><a href="index.html">Inicio</a></li>
+                                              <li><a href="about.html"> Nosotros </a></li>
+                                              <li><a href="blog.html">Estrenos</a></li>
+                                              <li><a href="404.html">Cines</a></li>
+                                              <li><a href="cart.html">Cartelera</a></li>
+                                              <li><a href="contact.html">Contacto</a></li>
+                                                  <div class="fix"> </div>
+  
+                                          </ul>
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Mi Cuenta</h3>
+                                          <div class="list styled arrow-list3">
+                                              <ul>
+                                                  <li><a href="account.html">Mi Cuenta</a></li>
+                                                  <li><a href="404.html">Mi direccion</a></li>
+                                                  <li><a href="cart.html">Mi Carrito</a></li>
+                                              </ul>
+                                              </div>
+                                      </div>
+  
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Buscanos</h3>
+                                              <ul class="soc_icons2">
+                                              <li><a href="#"><i class="icon_4"></i><span>Facebook</a></span></li>
+                                              <li><a href="#"><i class="icon_5"></i><span>Twitter</a></span></li>
+                                              <li><a href="#"><i class="icon_6"></i><span>Rss Feed</a></span></li>
+                                          </ul>
+  
+                                      </div>
+                                  <div class="fix"> </div>
+                              </div>				
+                      </div>
+  
+                  <script type="text/javascript">
+                                      $(document).ready(function() {
+                                          $().UItoTop({ easingType: 'easeOutQuart' });
+                                      });
+                                  </script>
+                      <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  
+  
+  </body>
+  </html>		

@@ -1,0 +1,339 @@
+  <!DOCTYPE HTML>
+  <html>
+      <head>
+          <title>CineMania</title>
+          <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+          <link href="css/style.css" rel='stylesheet' type='text/css' />
+          <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="keywords" content="Snow Skating Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+          Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" 
+          />
+          <script src="js/qwery.js"></script>
+          <script src="js/jquery.min.js"></script>
+          <script src="js/main.js"></script>
+          <script type="application/x-javascript"> 
+			addEventListener("load", function() { 
+				setTimeout(hideURLbar, 0); }, false); 
+				function hideURLbar(){
+					window.scrollTo(0,1); 
+				} 
+			</script>
+          </script>
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+           <!-- start-smoth-scrolling-->
+          <script type="text/javascript" src="js/move-top.js"></script>
+          <script type="text/javascript" src="js/easing.js"></script>
+          
+          <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+          <script type="text/javascript">
+              jQuery(document).ready(function($) {
+                  $(".scroll").click(function(event){		
+                      event.preventDefault();
+                      $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                  });
+              });
+          </script>
+          <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+          <script>
+              $(function() {
+                  var pull 		= $('#pull');
+                      menu 		= $('nav ul');
+                      menuHeight	= menu.height();
+                  $(pull).on('click', function(e) {
+                      e.preventDefault();
+                      menu.slideToggle();
+                  });
+                  $(window).resize(function(){
+                      var w = $(window).width();
+                      if(w > 320 && menu.is(':hidden')) {
+                          menu.removeAttr('style');
+                      }
+                  });
+              });
+          </script>
+      </head>
+      <body>
+              <div id="home" class="cabecera">
+                  <div class="container">
+                      <div class="top-cabecera">
+                          <div class="logo">
+                              <a href="index.html"><img src="images/logo.png" alt=""></a>
+                          </div>
+                           <nav class="top-nav">
+                              <ul class="top-nav">
+                                  <li class="activo"><a href="index.html">Inicio</a></li>
+                                  <li><a href="about.html">CineMania</a></li>
+                                  <li><a href="blog.html">Cines</a></li>
+                                  <li><a href="cart.html">Cartelera</a></li>
+                                  <li><a href="contact.html">Contacto</a></li>
+                                      <div class="fix"> </div>
+  
+                              </ul>
+                              <a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+                          </nav>
+                              <div class="fix"></div>
+                      </div>
+                       <div class="main-search">
+                          <form action="search.html">
+                             <input type="text" value="Search" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}" class="text"/>
+                              <input type="submit" value=""/>
+                          </form>
+                  <div class="close"><img src="images/cross.png" /></div>
+              </div>
+              <div class="srch"><button></button></div>
+              <script type="text/javascript">
+                   $('.main-search').hide();
+                  $('button').click(function (){
+                      $('.main-search').show();
+                      $('.main-search text').focus();
+                  }
+                  );
+                  $('.close').click(function(){
+                      $('.main-search').hide();
+                  });
+              </script>
+          <div class="fix"></div>
+                  <div  id="top" class="callbacks_container">
+                    <ul class="rslides" id="slider4">
+                      <li>
+                        <div class="slider-top">
+                                <div class="slider-top">
+                              <h1>La mejor experiencia al alcance de tu mano</h1>
+                              <a class="banner-btn" href="#">Mostrar mas</a>
+                        </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="slider-top">
+                                <div class="slider-top">
+                              <h1>Si no te quieren en tu casa nosotros si ;)</h1>
+                              <a class="banner-btn" href="#">More</a>
+                        </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="slider-top">
+                                <div class="slider-top">
+                              <h1>Si vienes solo tenemos muñecas inflables campeon</h1>
+                              <a class="banner-btn" href="#">More</a>
+                              
+                        </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="fix"> </div>
+              </div>
+          </div>
+                  <script src="js/responsiveslides.min.js"></script>
+               <script>
+                  $(function () {
+                    $("#slider4").responsiveSlides({
+                      auto: true,
+                      pager: true,
+                      nav:false,
+                      speed: 500,
+                      namespace: "callbacks",
+                      before: function () {
+                        $('.events').append("<li>before event fired.</li>");
+                      },
+                      after: function () {
+                        $('.events').append("<li>after event fired.</li>");
+                      }
+                    });
+              
+                  });
+                </script>
+              <div class="welcome-section">
+                  <div class="container">
+                      <div class="welcom-grids">
+                          <div class="col-md-4 welcom-grid-img">
+                              <img src="images/welcome.jpg" title="img" />
+                          </div>
+                          <div class="col-md-4 welcom-grid-text">
+                              <h2>Bienvenido</h2>
+                              <p>CineMá es un concepto único creado por Cinemex, donde queremos consentir 
+                              a las mamás y papás que han dejado de asistir al cine al convertirse en padres.
+                              Por esta razón te invitamos a que regreses a Cinemex acompañado de tu bebé. </p>
+                          </div>
+                          <div class="col-md-4 welcom-grid-list">
+                              <h3>Tipos de socios</h3>
+                                  <div class="list styled arrow-list2">
+                                              <ul>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Premium</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Semi-Premium</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Especial</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Basico</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Solo uno mas</a></li>
+                                                  <li><a href="#"><img src="images/ar.png" alt="">Vengo al cine cada año</a></li>
+                                              </ul>
+                                          </div>
+  
+                          </div>
+                          <div class="fix"> </div>  
+                      </div>
+                  </div>
+              </div>
+          <div class="Event-section">
+                  <div class="container">
+                      <h3>Proximos Estrenos</h3>
+                           <div class="section group">
+                                  <div class="col-md-3 gallery-box">
+                                          <div id="nivo-lightbox-demo"> <p> <a href="images/e1-pop.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>  	<img src="images/e1.png" title="img" />
+                                          <h4>Capitan america 3</h4>
+                                          <h5>8.00 - 10.00 <lable>  JUN 09,2016 </lable> 
+                                          <p>Capitán América: Civil War será un desfile de superhéroes de Marvel.
+                                           Entre ellos Ant-Man, Pantera Negra y War Machine, tres personajes que comparten protagonismo con alguno de los Vengadores.</p>
+                                  </div>
+                                  <div class="col-md-3 gallery-box">
+                                          <div id="nivo-lightbox-demo"> <p> <a href="images/e2-pop.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>	<img src="images/e2.png" title="img" />
+                                          <h4>Kun Fu Panda 3 </h4>
+                                          <h5>8.00 - 10.00 <lable>  JUN 09,2016 </lable> 
+                                          <p>Kung Fu Panda 3 es la próxima comedia de acción animada por ordenador 3D película chino-estadounidense de artes marciales, producida por Dreamworks Animation y distribuida por 20th Century Fox.</p>
+                                   </div>
+                                   <div class="col-md-3 gallery-box">
+                                          <div id="nivo-lightbox-demo"> <p> <a href="images/e3-pop.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                              <img src="images/e3.png" title="img" />
+                                          <h4>Batman v Superman </h4>
+                                          <h5>8.00 - 10.00 <lable>  JUN 09,2016 </lable> 
+                                          <p> Batman vs Superman: el origen de la justicia es una próxima película de superhéroes estadounidense basada en los personajes Batman y Superman de DC Comics, distribuida por Warner Bros</p>
+                                  </div>
+                                  <div class="col-md-3 gallery-box">
+                                          <div id="nivo-lightbox-demo"> <p> <a href="images/e4-pop.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>	<img src="images/e4.png" title="img" />
+                                          <h4> Star Wars Anthology</h4>
+                                          <h5>8.00 - 10.00 <lable>  JUN 09,2016 </lable> 
+                                          <p>Es la octava entrega de la saga Star Wars en fecha de estreno, si bien se mantiene al margen del arco argumental principal y constituye así el primero de los tres spin-off de la serie.</p>
+                                  </div>
+                              <div class="fix"> </div>
+                          </div>
+                     <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+                  <script type="text/javascript">
+                  $(document).ready(function(){
+                      $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
+                  });
+                  </script>
+              </div>
+          </div>
+          <div  class="testimonials" id="testimonials">
+               <div class="wmuSlider example1">
+              <div class="container-flueid">
+                 <article style="position: absolute; width:64%; opacity: 0;"> 
+                      
+                      <div class=" cont span_2_of_3 client-main">
+                              <div class="slide-text2" >
+                                      <p>Entre en el gran mundo del Cine</p>
+                              <span> </span>
+                              </div>
+                              <div class="fix"> </div>  
+                      </div>
+                  </article>
+                   <article style="position: absolute; width:64%; opacity: 0;"> 
+                      <div class=" cont span_2_of_3  client-main">
+                              <div class="slide-text2">
+                                  <p>Shalalalalalalalalaalalalalalalalalalalalalalalalalalalalalalalalala (8</p>
+                                      <span> </span>
+                              </div>
+                              <div class="fix"> </div>  
+                      </div>
+                   </article>
+                   <article style="position: absolute; width:64%; opacity: 0;"> 
+                      <div class="cont span_2_of_3  client-main">
+                              <div class="slide-text2">
+                                      <p>Parangaricutirimicuaro , Parangaricutirimicuaro , Parangaricutirimicuaro , Parangaricutirimicuaro </p>
+                              <span> </span>
+                              </div>
+                              <div class="fix"> </div>  
+                      </div>
+                   </article>
+           
+                    <script src="js/jquery.wmuSlider.js"></script> 
+                      <script>
+                           $('.example1').wmuSlider();         
+                      </script> 	           	      
+               </div>
+           </div>
+       </div>
+              <div class="leave-section">
+                  <div class="container">
+                      <h3>CineMania</h3>
+                      <div class="Event-grids">
+                          <div class="col-md-3 leave-grid">
+                                  <h4>Clientes</h4>
+                                  <p>En Cinemex, nuestros clientes son nuestros invitados y 
+                                  nuestra misión es ser los mejores en divertir a la gente. 
+                                  Con la idea de poderle llegar a más personas nos hemos expandido 
+                                  a múltiples ciudades dentro de México a lo largo del tiempo.</p>
+                          </div>	
+                          <div class="col-md-3 leave-grid">
+                                  <h4>Salas</h4>
+                                  <p>Al igual contamos con Cinemex 3D, la experiencia X4D, Casa de Arte y Contenido Alternativo, siendo este último un espacio donde los invitados podrán disfrutar de partidos de la NFL, UEFA Champions League, temporadas de Ópera, Ballet Bolshoi, entre otros. Adicional, ofrecemos funciones CineMá, donde los invitados podrán asistir acompañados de sus bebés a una sala acondicionada especialmente para ellos. </p>
+                          </div>	
+                          <div class="col-md-3 leave-grid">
+                                  <h4>Cines</h4>
+                                  <p>Cinemex, la sexta cadena de cines más grande del mundo, ha llevado La Magia del Cine a millones de personas alrededor de México desde su fundación en agosto de 1995, fecha en la cual, abrió sus puertas al público con el complejo Cinemex Altavista. </p>
+                          </div>	
+                          <div class="col-md-3 leave-grid">
+                                  <h4> Exhibidor Internacional del Año </h4>
+                                  <p>El año pasado fuimos reconocidos como el “Exhibidor Internacional del Año” durante la Convención Anual de ShowEast 2013, premio que reconoce nuestro liderazgo, innovación y crecimiento constante en los últimos años.</p>
+                          </div>	
+                          <div class="fix"> </div>  		
+                      </div>	
+                  </div>
+              </div>
+                          <div class="footer">
+                              <div class="container">
+                                  <div class="footer-content">
+                                      <div class="col-md-3 footer-grid-copy-right">
+                                          <div class="logo-2">
+                                              <a href="index.html"><img src="images/logo2.png" alt=""></a>
+                                          </div>
+                                          <p> Creado por &nbsp;<a href="https://cinemex.com">CineMania</a></p>
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Informacion</h3>
+                                          <ul class="bottom-nav">
+                                              <li class="activo"><a href="index.html">Inicio</a></li>
+                                              <li><a href="about.html"> Nosotros </a></li>
+                                              <li><a href="blog.html">Estrenos</a></li>
+                                              <li><a href="404.html">Cines</a></li>
+                                              <li><a href="cart.html">Cartelera</a></li>
+                                              <li><a href="contact.html">Contacto</a></li>
+                                                  <div class="fix"> </div>
+  
+                                          </ul>
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Mi Cuenta</h3>
+                                          <div class="list styled arrow-list3">
+                                              <ul>
+                                                  <li><a href="account.html">Mi Cuenta</a></li>
+                                                  <li><a href="404.html">Mi direccion</a></li>
+                                                  <li><a href="cart.html">Mi Carrito</a></li>
+                                              </ul>
+                                              </div>
+                                      </div>
+  
+                                      </div>
+                                      <div class="col-md-3 footer-grid">
+                                          <h3>Buscanos</h3>
+                                              <ul class="soc_icons2">
+                                              <li><a href="#"><i class="icon_4"></i><span>Facebook</a></span></li>
+                                              <li><a href="#"><i class="icon_5"></i><span>Twitter</a></span></li>
+                                              <li><a href="#"><i class="icon_6"></i><span>Rss Feed</a></span></li>
+                                          </ul>
+  
+                                      </div>
+                                  <div class="fix"> </div>
+                              </div>				
+                      </div>
+  
+                  <script type="text/javascript">
+                                      $(document).ready(function() {
+                                          $().UItoTop({ easingType: 'easeOutQuart' });	
+                                      });
+                                  </script>
+                      <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  </body>
+  </html>		
